@@ -1,0 +1,21 @@
+# Dependencies
+**/node_modules/
+
+# Environment and secrets
+**/.env
+**/.env.*
+!.env.example
+
+# Build output and local state
+**/dist/
+**/.next/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+**/mastra.db
+**/mastra.db-*
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
